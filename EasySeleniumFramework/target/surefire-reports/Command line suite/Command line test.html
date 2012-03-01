@@ -1,0 +1,117 @@
+<html>
+<head>
+<title>TestNG:  Command line test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Command line test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jan 05 23:46:53 CET 2012</td>
+</tr>
+<tr><td>Total time:</td><td>12 seconds (12991 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.spindrift.qa.automation.seleniumframework.core.TestCaseSeleniumAutoInitTest.goToGoogle()'><b>goToGoogle</b><br>Test class: com.spindrift.qa.automation.seleniumframework.core.TestCaseSeleniumAutoInitTest<br/>
+<a href="#Output-2132679615" onClick='toggleBox("Output-2132679615", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2132679615" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2132679615">
+selenium.open("http://google.com");<br/>
+selenium.waitFor(1000);<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.spindrift.qa.automation.seleniumframework.core.TestCaseSeleniumAutoInitTest@fcfa52</td></tr>
+<tr>
+<td title='com.spindrift.qa.automation.seleniumframework.core.WebDriverTest.testFirefoxDriver()'><b>testFirefoxDriver</b><br>Test class: com.spindrift.qa.automation.seleniumframework.core.WebDriverTest</td>
+<td></td>
+<td>2</td>
+<td>com.spindrift.qa.automation.seleniumframework.core.WebDriverTest@60961dff</td></tr>
+<tr>
+<td title='com.spindrift.qa.automation.seleniumframework.core.WebDriverTest.testHtmlUnitDriver()'><b>testHtmlUnitDriver</b><br>Test class: com.spindrift.qa.automation.seleniumframework.core.WebDriverTest</td>
+<td></td>
+<td>1</td>
+<td>com.spindrift.qa.automation.seleniumframework.core.WebDriverTest@60961dff</td></tr>
+<tr>
+<td title='com.spindrift.qa.automation.seleniumframework.core.RegexHelperTest.testRegex()'><b>testRegex</b><br>Test class: com.spindrift.qa.automation.seleniumframework.core.RegexHelperTest</td>
+<td></td>
+<td>0</td>
+<td>com.spindrift.qa.automation.seleniumframework.core.RegexHelperTest@6542bece</td></tr>
+<tr>
+<td title='com.spindrift.qa.automation.seleniumframework.core.WebDriverTest.testWebdriverBackedSeleniumWithFirefox()'><b>testWebdriverBackedSeleniumWithFirefox</b><br>Test class: com.spindrift.qa.automation.seleniumframework.core.WebDriverTest</td>
+<td></td>
+<td>2</td>
+<td>com.spindrift.qa.automation.seleniumframework.core.WebDriverTest@60961dff</td></tr>
+<tr>
+<td title='com.spindrift.qa.automation.seleniumframework.core.WebDriverTest.testWebdriverBackedSeleniumWithHtmlUnit()'><b>testWebdriverBackedSeleniumWithHtmlUnit</b><br>Test class: com.spindrift.qa.automation.seleniumframework.core.WebDriverTest</td>
+<td></td>
+<td>0</td>
+<td>com.spindrift.qa.automation.seleniumframework.core.WebDriverTest@60961dff</td></tr>
+</table><p>
+</body>
+</html>

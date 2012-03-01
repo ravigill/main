@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" > 
+<suite name="EasySelenium Framework Tests">
+	<parameter name="ui_properties"  value="src/main/resources/web.ui.path.properties"/>
+	<parameter name="env_properties"  value="src/main/resources/environment.properties"/>
+	<test name="EasySeleniumFrameworkTests" preserve-order="true">
+		<packages>
+			<package name="com.zoxis.qa.automation.seleniumframework.core"></package>
+		</packages>
+	</test>
+</suite>

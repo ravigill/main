@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[selenium.open("http://google.com");]]>
+    </line>
+    <line>
+      <![CDATA[selenium.waitFor(1000);]]>
+    </line>
+    <line>
+      <![CDATA[selenium.close();]]>
+    </line>
+    <line>
+      <![CDATA[selenium.stop();]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6559" started-at="2012-01-05T23:43:57Z" finished-at="2012-01-05T23:44:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6559" started-at="2012-01-05T23:43:57Z" finished-at="2012-01-05T23:44:04Z">
+      <class name="com.spindrift.qa.automation.seleniumframework.core.TestCaseSeleniumAutoInitTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.spindrift.qa.automation.seleniumframework.core.TestCaseSeleniumAutoInitTest@203fa5ac]" name="init" is-config="true" duration-ms="4874" started-at="2012-01-05T23:43:57Z" finished-at="2012-01-05T23:44:02Z">
+        </test-method>
+        <test-method status="PASS" signature="goToGoogle()[pri:0, instance:com.spindrift.qa.automation.seleniumframework.core.TestCaseSeleniumAutoInitTest@203fa5ac]" name="goToGoogle" duration-ms="1496" started-at="2012-01-05T23:44:02Z" finished-at="2012-01-05T23:44:04Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.spindrift.qa.automation.seleniumframework.core.TestCaseSeleniumAutoInitTest@203fa5ac]" name="tearDown" is-config="true" duration-ms="177" started-at="2012-01-05T23:44:04Z" finished-at="2012-01-05T23:44:04Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

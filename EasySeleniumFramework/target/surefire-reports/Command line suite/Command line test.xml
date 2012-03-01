@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="Ravidev-Gills-MacBook-Pro.local" name="com.spindrift.qa.automation.seleniumframework.core.RegexHelperTest" tests="6" failures="0" timestamp="5 Jan 2012 22:47:06 GMT" time="12.991" errors="0">
+  <testcase name="testRegex" time="0.0060" classname="com.spindrift.qa.automation.seleniumframework.core.RegexHelperTest"/>
+  <testcase name="goToGoogle" time="1.616" classname="com.spindrift.qa.automation.seleniumframework.core.TestCaseSeleniumAutoInitTest"/>
+  <testcase name="testFirefoxDriver" time="2.321" classname="com.spindrift.qa.automation.seleniumframework.core.WebDriverTest"/>
+  <testcase name="testHtmlUnitDriver" time="1.618" classname="com.spindrift.qa.automation.seleniumframework.core.WebDriverTest"/>
+  <testcase name="testWebdriverBackedSeleniumWithFirefox" time="2.217" classname="com.spindrift.qa.automation.seleniumframework.core.WebDriverTest"/>
+  <testcase name="testWebdriverBackedSeleniumWithHtmlUnit" time="0.288" classname="com.spindrift.qa.automation.seleniumframework.core.WebDriverTest"/>
+</testsuite>
