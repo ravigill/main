@@ -5,6 +5,6 @@ class Main {
 		System.err
 				.println("Package: spindrift-selenium-framework-core-2.0RELEASE");
 		System.err.println("Author: Ravi Gill raidev.gill@gmail.com");
-		System.err.println("Website: http://tigabeats.com");
+		System.err.println("Website:");
 	}
 }
